@@ -10,6 +10,7 @@ class Config:
     USER_NAME_APP = os.getenv("USER_NAME_APP")
     PASSWD_APP = os.getenv("PASSWD_APP")
     DB_APP = os.getenv("DB_APP")
+    PORT_APP = os.getenv("PORT_APP")
 
     # configuracion de la secret session key
     SECRET_SESSION_KEY = os.getenv("SECRET_SESSION_KEY")
