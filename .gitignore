@@ -1,0 +1,8 @@
+# ignora las variables de entorno
+/backend/config/.env
+
+# ignora los __pycache__
+/backend/**/__pycache__
+
+# ignora la base de datos
+/backend/config/db.sql
